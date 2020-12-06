@@ -21,7 +21,7 @@ function getCopyObj(obj) {
     "bmw-price": 5000,
     "audi-price": 8000,
     "bmw-bike": false,
-    "bmw-bicycle": true,
+    "bmw-bicycle": true
   };
   
   console.log(getCopyObj(transport));
