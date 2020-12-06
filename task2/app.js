@@ -1,4 +1,4 @@
-function getCopyObjKeys(obj) {
+function getCopyObjProp(obj) {
   for (let prop in obj) {
     obj[prop] = "";
   }
@@ -13,4 +13,4 @@ const transport = {
   "audi-price": 8000,
 };
  
-console.log(getCopyObjProperties(transport));
+console.log(getCopyObjProp(transport));
